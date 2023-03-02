@@ -1,0 +1,296 @@
+{
+    "Produtos": {
+        "Vertical_Feature_Mask": {
+            "Diretório": "...",
+            "Classificacao_elementos": {
+                "Tipos_elementos": {
+                    "Bits": {
+                        "0": "Inválido",
+                        "1": "Ar limpo",
+                        "2": "Nuvem",
+                        "3": "Aerossol troposférico",
+                        "4": "Aerossol estratosférico",
+                        "5": "Superfície",
+                        "6": "Subsuperfície",
+                        "7": "Sem sinal"
+                    }
+                },
+                "Aerossóis_Troposféricos": {
+                    "Bits": {
+                        "0": "Não determinado",
+                        "1": "Marinho Limpo",
+                        "2": "Poeira",
+                        "3": "Poluição Continental/Fumaça",
+                        "4": "Continental Limpo",
+                        "5": "Poeira Poluída",
+                        "6": "Fumaça Elevada",
+                        "7": "Poeira Marinha"
+                    }
+                },
+                "Aerossóis_Estratosféricos": {
+                    "Bits": {
+                        "0": "Inválido",
+                        "1": "Aerosol PSC",
+                        "2": "Cinza Vulcânica",
+                        "3": "Sulfato/Outro",
+                        "4": "Fumaça Elevada"
+                    }
+                }
+            }
+        },
+        "Tropospheric_Aerosol_Profile": {
+            "Diretório": "...",
+            "Variáveis": {
+                "Extinction_Coefficient_532_Mean": {
+                    "Tradução": "Coeficiente de Extinção - Total",
+                    "Nome_eixo": "Coeficiente de Extinção (km-1)",
+                    "Limites_detecção": [
+                        0,
+                        4
+                    ],
+                    "Cor": "gray"
+                },
+                "Extinction_Coefficient_532_Mean_Dust": {
+                    "Tradução": "Coeficiente de Extinção - Poeira",
+                    "Nome_eixo": "Coeficiente de Extinção (km-1)",
+                    "Limites_detecção": [
+                        0,
+                        4
+                    ],
+                    "Cor": "darkorange"
+                },
+                "Extinction_Coefficient_532_Mean_Elevated_Smoke": {
+                    "Tradução": "Coeficiente de Extinção - Fumaça Elevada",
+                    "Nome_eixo": "Coeficiente de Extinção (km-1)",
+                    "Limites_detecção": [
+                        0,
+                        4
+                    ],
+                    "Cor": "rebeccapurple"
+                },
+                "Extinction_Coefficient_532_Mean_Polluted_Dust": {
+                    "Tradução": "Coeficiente de Extinção - Poeira Poluída",
+                    "Nome_eixo": "Coeficiente de Extinção (km-1)",
+                    "Limites_detecção": [
+                        0,
+                        4
+                    ],
+                    "Cor": "saddlebrown"
+                },
+                "AOD_Mean": {
+                    "Tradução": "Espessura Óptica dos Aerossóis - Total",
+                    "Nome_eixo": "EOA",
+                    "Limites_detecção": [
+                        0,
+                        5
+                    ],
+                    "Cor": "gray"
+                },
+                "AOD_Mean_Dust": {
+                    "Tradução": "Espessura Óptica dos Aerossóis - Poeira",
+                    "Nome_eixo": "EOA",
+                    "Limites_detecção": [
+                        0,
+                        5
+                    ],
+                    "Cor": "darkorange"
+                },
+                "AOD_Mean_Elevated_Smoke": {
+                    "Tradução": "Espessura Óptica dos Aerossóis - Fumaça Elevada",
+                    "Nome_eixo": "EOA",
+                    "Limites_detecção": [
+                        0,
+                        5
+                    ],
+                    "Cor": "rebeccapurple"
+                },
+                "AOD_Mean_Polluted_Dust": {
+                    "Tradução": "Espessura Óptica dos Aerossóis - Poeira Poluída",
+                    "Nome_eixo": "EOA",
+                    "Limites_detecção": [
+                        0,
+                        5
+                    ],
+                    "Cor": "saddlebrown"
+                },
+                "Samples_Aerosol_Detected_Accepted": {
+                    "Tradução": "Detecção de Aerossóis",
+                    "Nome_eixo": "Detecções (pixel)",
+                    "Limites_detecção": [
+                        0,
+                        32767
+                    ],
+                    "Cores": {
+                        "INVERNO": "royalblue",
+                        "OUTONO": "red",
+                        "PRIMAVERA": "darkorange",
+                        "VERÃO": "forestgreen"
+                    }
+                },
+                "Aerosol_Type": {
+                    "Tradução": "Detecções de Aerossóis por Tipo",
+                    "Nome_eixo": "Detecções (pixel)",
+                    "Limites_detecção": [
+                        0,
+                        32767
+                    ],
+                    "Tipos_Aerossóis": {
+                        "Marinho Limpo": "royalblue",
+                        "Poeira": "darkorange",
+                        "Poluição Continental/Fumaça": "red",
+                        "Continental Limpo": "green",
+                        "Poeira Poluída": "saddlebrown",
+                        "Fumaça Elevada": "rebeccapurple",
+                        "Poeira Marinha": "steelblue"
+                    }
+                }
+            }
+        }
+    },
+    "Áreas_estudo": {
+        "Area_1_Manaus": {
+            "Coordenadas": {
+                "Latitudes": [
+                    -2,
+                    -4
+                ],
+                "Longitudes": [
+                    -61,
+                    -59
+                ]
+            }
+        },
+        "Area_2_Belém": {
+            "Coordenadas": {
+                "Latitudes": [
+                    -0.5,
+                    -2.5
+                ],
+                "Longitudes": [
+                    -49.5,
+                    -47.5
+                ]
+            }
+        },
+        "Area_3_Rio_Branco": {
+            "Coordenadas": {
+                "Latitudes": [
+                    -8.7,
+                    -10.7
+                ],
+                "Longitudes": [
+                    -68.6,
+                    -66.6
+                ]
+            }
+        },
+        "Area_4_Cruzeiro_do_Sul": {
+            "Coordenadas": {
+                "Latitudes": [
+                    -6.3,
+                    -8.3
+                ],
+                "Longitudes": [
+                    -73.4,
+                    -71.4
+                ]
+            }
+        },
+        "Area_5_Eirunepé": {
+            "Coordenadas": {
+                "Latitudes": [
+                    -5.8,
+                    -7.8
+                ],
+                "Longitudes": [
+                    -70.6,
+                    -68.6
+                ]
+            }
+        },
+        "Area_6_Alto_Rio_Negro": {
+            "Coordenadas": {
+                "Latitudes": [
+                    1.2,
+                    -0.8
+                ],
+                "Longitudes": [
+                    -69.1,
+                    -67.1
+                ]
+            }
+        },
+        "Area_7_Oriximiná": {
+            "Coordenadas": {
+                "Latitudes": [
+                    1.2,
+                    -0.8
+                ],
+                "Longitudes": [
+                    -58,
+                    -56
+                ]
+            }
+        },
+        "Area_8_Waiãpi": {
+            "Coordenadas": {
+                "Latitudes": [
+                    1.6,
+                    -0.4
+                ],
+                "Longitudes": [
+                    -54.2,
+                    -52.2
+                ]
+            }
+        },
+        "Area_9_Cachoeira_da_Serra": {
+            "Coordenadas": {
+                "Latitudes": [
+                    -7,
+                    -9
+                ],
+                "Longitudes": [
+                    -54.2,
+                    -52.2
+                ]
+            }
+        },
+        "Area_10_Araweté_Igarapé_Ipixuna": {
+            "Coordenadas": {
+                "Latitudes": [
+                    -3.9,
+                    -5.9
+                ],
+                "Longitudes": [
+                    -53.5,
+                    -51.5
+                ]
+            }
+        },
+        "Area_11_Yanomami": {
+            "Coordenadas": {
+                "Latitudes": [
+                    3.5,
+                    1.5
+                ],
+                "Longitudes": [
+                    -64,
+                    -62
+                ]
+            }
+        },
+        "Area_12_Tapauá": {
+            "Coordenadas": {
+                "Latitudes": [
+                    -3.7,
+                    -5.7
+                ],
+                "Longitudes": [
+                    -67.4,
+                    -65.4
+                ]
+            }
+        }
+    }
+}
